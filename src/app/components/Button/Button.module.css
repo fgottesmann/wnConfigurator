@@ -1,9 +1,11 @@
 .button {
-  color: #000;
-  background: linear-gradient(180deg, #ffbb3b, #ffa90a);
+  color: #fff;
+  background: #d9002f;
   font-size: 0.8em;
-  padding: 0.8em 2em;
+  padding: 0.8em 1em 0.3em 1.3em;
   border: none;
-  border-radius: 0.4em;
-  text-transform: uppercase;
+  border-radius: 1.3em;
+}
+.arrowRight {
+  padding-left: 0.5em;
 }
