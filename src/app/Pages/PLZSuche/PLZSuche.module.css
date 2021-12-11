@@ -29,7 +29,8 @@
 }
 .input {
   margin-bottom: 2em;
-  margin-left: 2em;
+  display: grid;
+  justify-content: center;
 }
 .landing::-webkit-scrollbar {
   display: none;
@@ -37,6 +38,8 @@
 .parag {
   margin-left: 1.5em;
   font-size: 1.2em;
+  display: grid;
+  justify-content: center;
 }
 .span1 {
   margin-left: 1.1em;

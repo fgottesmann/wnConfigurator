@@ -11,6 +11,7 @@ export default function PLZInput(): JSX.Element {
       ></input>
       <button className={styles.button}>Suchen</button>
       <img
+        className={styles.arrowRight}
         src="/arrowRight.svg
       "
         alt=""
