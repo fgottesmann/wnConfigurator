@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Homes.module.css';
-import Button from '../Button/Button';
+import Button from '../../components/Button/Button';
 
 function HomeCards(): JSX.Element {
   return (
