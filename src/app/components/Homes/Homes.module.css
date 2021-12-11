@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+  max-width: 100%;
+}
+.card {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  max-width: 30em;
+}
+
+.nav {
+  max-height: 3em;
+  border-bottom: 1px solid black;
+  display: grid;
+  justify-content: end;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  top: 0;
+  margin-bottom: 1em;
+}
+.burger {
+  position: relative;
+  top: 20%;
+  right: 10%;
+  max-height: 4em;
+  max-width: 4em;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 1em;
+}
+.span {
+  margin-top: 3em;
+  font-size: 1.3em;
+}
+
+.spanCard {
+  font-size: 1.3em;
+  padding-left: 1em;
+}
+.paragCard {
+  padding-left: 1em;
+  margin-top: 1em;
+}
+.spanPrice {
+  padding-left: 1em;
+}
+.button {
+  padding-left: 1em;
+  margin-top: 1em;
+  padding-bottom: 1.5em;
+}

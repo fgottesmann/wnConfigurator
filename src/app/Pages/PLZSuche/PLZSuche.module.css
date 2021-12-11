@@ -14,13 +14,19 @@
   border-bottom: 1px solid black;
   display: grid;
   justify-content: end;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  top: 0;
 }
 .burger {
   position: relative;
-  top: 5%;
-  right: 5%;
-  max-height: 3em;
-  max-width: 3em;
+  top: 20%;
+  right: 10%;
+  max-height: 4em;
+  max-width: 4em;
 }
 .button {
   margin-bottom: 2em;
