@@ -1,0 +1,13 @@
+.nav {
+  max-height: 3em;
+  border-bottom: 1px solid black;
+  display: grid;
+  justify-content: end;
+}
+.burger {
+  position: relative;
+  top: 5%;
+  right: 5%;
+  max-height: 3em;
+  max-width: 3em;
+}
