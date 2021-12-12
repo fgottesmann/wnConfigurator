@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 30em;
+  display: grid;
+  justify-content: center;
+  margin-top: 3em;
+}
+.span {
+  border: 1px solid black;
+  width: 40%;
+  font-size: 1.125em;
+  padding: 0.1em;
+  display: grid;
+  justify-content: center;
+  margin-left: 60%;
+  margin-bottom: 0.5em;
+  font-weight: 450;
+}
+
+.block {
+  margin-top: 4em;
+}
