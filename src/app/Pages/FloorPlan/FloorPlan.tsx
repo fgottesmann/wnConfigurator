@@ -9,7 +9,9 @@ function FloorPlan(): JSX.Element {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h3 className={styles.mainHeading}>Welchen Grundriss wünschen Sie?</h3>
+      <span className={styles.mainHeading}>
+        Welchen Grundriss wünschen Sie?
+      </span>
       <p className={styles.parag}>
         Wahlen Sie einen Grundriss für Ihr Haus aus.
       </p>
