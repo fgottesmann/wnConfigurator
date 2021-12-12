@@ -3,11 +3,18 @@
   border-bottom: 1px solid black;
   display: grid;
   justify-content: end;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  top: 0;
+  margin-bottom: 1em;
 }
 .burger {
   position: relative;
   top: 20%;
   right: 10%;
-  max-height: 5em;
-  max-width: 5em;
+  max-height: 4em;
+  max-width: 4em;
 }
