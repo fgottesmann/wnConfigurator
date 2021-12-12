@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  gap: 2em;
+  padding: 1em;
+  justify-content: center;
+}
+.eg {
+  height: 15em;
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.og {
+  height: 15em;
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.button {
+  display: grid;
+  justify-content: end;
+}
