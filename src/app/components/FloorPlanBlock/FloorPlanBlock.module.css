@@ -1,5 +1,4 @@
 .container {
-  display: grid;
   gap: 2em;
   padding: 1em;
   justify-content: center;
@@ -11,6 +10,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  margin-bottom: 2em;
 }
 
 .og {
@@ -20,8 +20,13 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  margin-bottom: 2em;
 }
 .button {
   display: grid;
   justify-content: end;
+  margin-top: 1em;
+}
+.colExp {
+  width: 100%;
 }
