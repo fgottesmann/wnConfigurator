@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  max-width: 30em;
+  display: grid;
+  justify-content: center;
+  margin-top: 3em;
+}
+.span {
+  border: 1px solid black;
+  width: 40%;
+  font-size: 1.125em;
+  padding: 0.3em;
+  display: grid;
+  justify-content: center;
+  margin-left: 58%;
+  margin-bottom: 0.5em;
+  font-weight: 450;
+}
+
+.block {
+  margin-top: 4em;
+}
+.mainHeading {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
