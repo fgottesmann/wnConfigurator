@@ -1,0 +1,33 @@
+.content {
+  width: 100%;
+  display: grid;
+}
+.toggle {
+  width: 100%;
+  height: 3em;
+  text-align: left;
+  display: grid;
+  background: #fff;
+  max-width: 15em;
+  border: none;
+}
+.arrowDown {
+  height: 2em;
+  max-height: 4em;
+  max-width: 4em;
+  position: relative;
+  left: 90%;
+  bottom: 70%;
+}
+.span {
+  display: grid;
+  margin-top: 0.7em;
+}
+.input {
+  width: 100%;
+  max-width: 30em;
+  height: 15em;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
