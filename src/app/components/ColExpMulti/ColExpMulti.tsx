@@ -1,4 +1,5 @@
 import React, { useState, ReactNode } from 'react';
+import ColExpNotes from '../ColExpNotes/ColExpNotes';
 import styles from './ColExpMulti.module.css';
 
 type ColExpProps = {
@@ -15,14 +16,17 @@ export default function ColExpMulti({ children }: ColExpProps): JSX.Element {
         <img className={styles.plus} src="/plus.svg" alt="" />
       </button>
       {isOpen && (
-        <div className={styles.content}>
-          <div className={styles.quarter1}></div>
-          <div className={styles.quarter2}></div>
-          <div className={styles.quarter3}></div>
-          <div className={styles.quarter4}></div>
-          <div className={styles.quarter5}></div>
-          <div className={styles.quarter6}></div>
-        </div>
+        <>
+          <div className={styles.content}>
+            <div className={styles.quarter1}></div>
+            <div className={styles.quarter2}></div>
+            <div className={styles.quarter3}></div>
+            <div className={styles.quarter4}></div>
+            <div className={styles.quarter5}></div>
+            <div className={styles.quarter6}></div>
+          </div>
+          <ColExpNotes />
+        </>
       )}
     </div>
   );
