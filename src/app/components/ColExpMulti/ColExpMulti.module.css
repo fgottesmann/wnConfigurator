@@ -1,0 +1,134 @@
+.collapsible {
+  width: 100%;
+  max-width: 30em;
+}
+.toggle {
+  width: 100%;
+  height: 3em;
+  text-align: left;
+  display: grid;
+  background: #fff;
+}
+.buttonText {
+  padding-top: 0.8em;
+  font-weight: bold;
+}
+.plus {
+  position: relative;
+  left: 90%;
+  bottom: 55%;
+}
+.content {
+  list-style: none;
+  text-align: left;
+  border: 1px solid black;
+  padding: 0.5em;
+  border-top: none;
+  display: grid;
+  grid-template:
+    1fr 1fr 1fr
+    1fr 1fr 1fr;
+  grid-template-areas:
+    'quarter1 quarter2 quarter3'
+    'quarter4 quarter5 quarter6';
+  grid-row-gap: 1em;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.quarter1 {
+  height: 3em;
+  width: 3em;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  grid-area: quarter1;
+}
+.quarter2 {
+  height: 3em;
+  width: 3em;
+  background: #fef8c8;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  grid-area: quarter2;
+}
+.quarter3 {
+  height: 3em;
+  width: 3em;
+  background: #e35e5e;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  grid-area: quarter3;
+}
+.quarter4 {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  transform: rotate(90deg);
+  grid-area: quarter4;
+}
+.quarter5 {
+  height: 3em;
+  width: 3em;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  transform: rotate(90deg);
+  grid-area: quarter5;
+}
+.quarter6 {
+  height: 3em;
+  width: 3em;
+  outline: 2px solid black;
+  transition: outline-offset 250ms ease;
+  transform: rotate(90deg);
+  grid-area: quarter6;
+}
+.quarter1:hover,
+.quarter1:focus {
+  outline-offset: 2px;
+}
+.quarter2:hover,
+.quarter2:focus {
+  outline-offset: 2px;
+}
+.quarter3:hover,
+.quarter3:focus {
+  outline-offset: 2px;
+}
+.quarter4:hover,
+.quarter4:focus {
+  outline-offset: 2px;
+}
+.quarter5:hover,
+.quarter5:focus {
+  outline-offset: 2px;
+}
+.quarter6:hover,
+.quarter6:focus {
+  outline-offset: 2px;
+}
+.quarter4::after {
+  content: '';
+  position: absolute;
+  border-top: 1px solid black;
+  width: 4.2em;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+}
+.quarter5::after {
+  content: '';
+  position: absolute;
+  border-top: 1px solid black;
+  width: 4.2em;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+}
+.quarter6::after {
+  content: '';
+  position: absolute;
+  border-top: 1px solid black;
+  width: 4.2em;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+}

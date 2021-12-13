@@ -1,6 +1,7 @@
 .container {
   gap: 2em;
   padding: 1em;
+  max-width: 30em;
   justify-content: center;
 }
 .eg {

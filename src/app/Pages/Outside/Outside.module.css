@@ -1,0 +1,59 @@
+.content {
+  display: grid;
+  justify-content: center;
+  margin-top: 4em;
+  width: 100%;
+}
+
+.tabContainer {
+  width: 100%;
+}
+
+.außen {
+  border: 1px solid #d9002f;
+  color: white;
+  background: #d9002f;
+  padding: 0.2em;
+  border-radius: 1em;
+}
+
+.bottomContent {
+  margin-top: 2em;
+}
+
+.bar {
+  background: #d9002f;
+  width: 66%;
+  height: 0.8em;
+  margin-top: 0.8em;
+}
+.bar2 {
+  background: #d9002f;
+  opacity: 30%;
+  width: 33%;
+  height: 0.8em;
+  margin-top: 0.8em;
+}
+.barContainer {
+  display: flex;
+}
+.price {
+  border: 1px solid black;
+  width: 40%;
+  font-size: 1.125em;
+  padding: 0.3em;
+  display: grid;
+  justify-content: center;
+  margin-left: 65%;
+  margin-bottom: 0.5em;
+  font-weight: 450;
+}
+.emptyContainer {
+  border: 1px solid black;
+  height: 15em;
+  margin-bottom: 2em;
+}
+
+.fassade {
+  margin-bottom: 1em;
+}
